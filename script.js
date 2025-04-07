@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
       }, step);
   }
   counter("count1", 0, 1287, 3000);
-  counter("count2", 100, 5786, 2500);
+  counter("count2", 1000, 5786, 2500);
   counter("count3", 0, 1440, 3000);
-  counter("count4", 0, 7110, 3000);
+  counter("count4", 2000, 7110, 2000);
+  counter("count5", 5000, 15110, 3000);
 });
